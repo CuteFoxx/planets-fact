@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../../assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../../styles/index.scss" />
+    <title>Planets Fact</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="../../index.html" class="header__logo logo">The planets</a>
+        <nav class="header__nav nav">
+          <button class="header__nav-hamburger">
+            <img src="/assets/icon-hamburger.svg" alt="hamburger-icon" />
+          </button>
+          <div class="nav__menu">
+            <ul class="nav__links">
+              <li class="nav__link nav__link_mercury">
+                <a href="../../index.html">Mercury</a>
+              </li>
+              <li class="nav__link nav__link_venus">
+                <a href="../venus/index.html">Venus</a>
+              </li>
+              <li class="nav__link nav__link_earth">
+                <a href="../earth/index.html">Earth</a>
+              </li>
+              <li class="nav__link nav__link_mars">
+                <a href="../mars/index.html">Mars</a>
+              </li>
+              <li class="nav__link nav__link_jupiter">
+                <a href="../jupiter/index.html">Jupiter</a>
+              </li>
+              <li class="nav__link nav__link_saturn">
+                <a href="./index.html">Saturn</a>
+              </li>
+              <li class="nav__link nav__link_uranus">
+                <a href="../uranus/index.html">Uranus</a>
+              </li>
+              <li class="nav__link nav__link_neptune">
+                <a href="../neptune/index.html">Neptune</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__container">
+        <div class="planet__images">
+          <div class="planet__image">
+            <img src="../../assets/planet-saturn.svg" alt="saturn" />
+          </div>
+          <div class="planet__image planet__image_hidden">
+            <img
+              src="../../assets/planet-saturn-internal.svg"
+              alt="saturn internal"
+            />
+          </div>
+          <div class="planet__image planet__image-geology planet__image_hidden">
+            <img src="../../assets/planet-saturn.svg" alt="saturn" />
+            <div>
+              <img src="../../assets/geology-saturn.png" alt="saturn geology" />
+            </div>
+          </div>
+        </div>
+
+        <div class="planet__infos">
+          <h1 class="planet__info-title">Saturn</h1>
+          <div class="planet__info">
+            Jupiter is the fifth planet from the Sun and the largest in the
+            Solar System. It is a gas giant with a mass two and a half times
+            that of all the other planets in the Solar System combined, but less
+            than one-thousandth the mass of the Sun.
+
+            <div class="planet__source-wrapper">
+              <span class="planet__info-span">Source :</span>
+              <a
+                class="planet__info-source"
+                href="https://en.wikipedia.org/wiki/Saturn"
+                >Wikipedia</a
+              >
+            </div>
+          </div>
+          <div class="planet__info">
+            Despite consisting mostly of hydrogen and helium, most of Saturn's
+            mass is not in the gas phase, because hydrogen becomes a non-ideal
+            liquid when the density is above 0.01 g/cm3, which is reached at a
+            radius containing 99.9% of Saturn's mass.
+
+            <div class="planet__source-wrapper">
+              <span class="planet__info-span">Source :</span>
+              <a
+                class="planet__info-source"
+                href="https://en.wikipedia.org/wiki/Saturn#Internal_structure"
+                >Wikipedia</a
+              >
+            </div>
+          </div>
+          <div class="planet__info">
+            The outer atmosphere of Saturn contains 96.3% molecular hydrogen and
+            3.25% helium by volume. The planet's most famous feature is its
+            prominent ring system, which is composed mostly of ice particles
+            with a smaller amount of rocky debris and dust.
+
+            <div class="planet__source-wrapper">
+              <span class="planet__info-span">Source :</span>
+              <a
+                class="planet__info-source"
+                href="https://en.wikipedia.org/wiki/Saturn#Atmosphere"
+                >Wikipedia</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="planet__buttons">
+          <button
+            class="planet__button planet__button-overview planet__button_saturn"
+          ></button>
+          <button
+            class="planet__button planet__button-internal planet__button_saturn"
+          ></button>
+          <button
+            class="planet__button planet__button-geology planet__button_saturn"
+          ></button>
+        </div>
+        <div class="planet__stats stats">
+          <div class="stats__item">
+            <h2 class="stats__title">ROTATION TIME</h2>
+            <p class="stats__stat">10.8 Hours</p>
+          </div>
+          <div class="stats__item">
+            <h2 class="stats__title">REVOLUTION TIME</h2>
+            <p class="stats__stat">29.46 Years</p>
+          </div>
+
+          <div class="stats__item">
+            <h2 class="stats__title">radius</h2>
+            <p class="stats__stat">58,232 KM</p>
+          </div>
+          <div class="stats__item">
+            <h2 class="stats__title">AVERAGE TEMP.</h2>
+            <p class="stats__stat">-138°c</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="../../index.js"></script>
+  </body>
+</html>

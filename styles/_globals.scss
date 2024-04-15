@@ -1,0 +1,25 @@
+@use "variables" as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan";
+  font-weight: bold;
+  color: $primary-clr;
+  background-color: $bg-clr;
+  background-image: url("/assets/background-stars.svg");
+}
+
+[class*="__container"] {
+  max-width: 90em;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 2rem;
+}
